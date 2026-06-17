@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Insurance Advisor – Secure Your Family's Future</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="/css/styles.css"/>
+</head>
+<body>
+
+<!-- ═══════ NAV ═══════ -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <div class="logo">
+      <span class="logo-icon">🛡️</span>
+      <span class="logo-text" id="nav-brand">Insurance Advisor</span>
+    </div>
+    <ul class="nav-links" id="nav-menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#plans">Plans</a></li>
+      <li><a href="#calculators">Calculators</a></li>
+      <li><a href="#testimonials">Reviews</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="/admin" class="nav-cta">Admin</a>
+    <button class="hamburger" onclick="toggleMenu()">☰</button>
+  </div>
+</nav>
+
+<!-- ═══════ HERO ═══════ -->
+<section id="home" class="hero">
+  <div class="hero-bg">
+    <div class="hero-orb orb1"></div>
+    <div class="hero-orb orb2"></div>
+    <div class="hero-orb orb3"></div>
+  </div>
+  <div class="hero-content">
+    <div class="hero-left">
+      <div class="hero-badge">✦ Trusted Insurance Advisor Since 2010</div>
+      <h1 class="hero-title" id="hero-headline">Secure Your Family's Future with Trusted LIC Financial Protection</h1>
+      <p class="hero-sub" id="hero-subtext">Plan savings, retirement, and child future with expert LIC guidance tailored for your goals.</p>
+      <div class="hero-btns">
+        <a href="#contact" class="btn-primary" id="hero-cta1">Get Free Consultation</a>
+        <a href="#calculators" class="btn-secondary" id="hero-cta2">Check Financial Coverage</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num" id="stat1">500+</span><span class="stat-label">Happy Clients</span></div>
+        <div class="stat-div"></div>
+        <div class="stat"><span class="stat-num" id="stat2">15+</span><span class="stat-label">Years Experience</span></div>
+        <div class="stat-div"></div>
+        <div class="stat"><span class="stat-num" id="stat3">₹50Cr+</span><span class="stat-label">Claims Settled</span></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-card-float">
+        <div class="float-card fc1"><span class="fc-icon">🏠</span><div><strong>Home Protection</strong><small>Coverage Active</small></div></div>
+        <div class="float-card fc2"><span class="fc-icon">👨‍👩‍👧</span><div><strong>Family Plan</strong><small>₹25L Cover</small></div></div>
+        <div class="float-card fc3"><span class="fc-icon">📈</span><div><strong>Savings Growth</strong><small>+12% Returns</small></div></div>
+        <div class="hero-shield">🛡️</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ ABOUT ═══════ -->
+<section id="about" class="about-section">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-img-wrap">
+        <div class="about-img-box">
+          <div class="about-img-inner">
+            <!-- Advisor photo: real photo if uploaded, else avatar -->
+            <div class="advisor-photo-wrap" id="advisor-photo-wrap">
+              <div class="agent-avatar" id="advisor-avatar-fallback"><span class="agent-icon">👨‍💼</span></div>
+              <img id="advisor-real-photo" src="" alt="Insurance Advisor" class="advisor-real-photo" style="display:none;"/>
+            </div>
+            <div class="agent-badge-card">
+              <div class="abc-top"><span>⭐</span><strong>IRDA Registered Insurance Advisor</strong></div>
+              <p>Top Performer</p>
+            </div>
+          </div>
+          <div class="about-deco d1"></div>
+          <div class="about-deco d2"></div>
+        </div>
+      </div>
+      <div class="about-text">
+        <div class="section-tag">About Me</div>
+        <h2 class="section-title" id="about-title">Your Trusted LIC Financial Guide</h2>
+        <p id="about-para1">With over 15 years of experience as a certified LIC agent, I have helped hundreds of families across the region secure their financial futures.</p>
+        <p id="about-para2">I believe insurance is not just a policy — it's a promise. A promise to your family that no matter what happens, their dreams will be protected.</p>
+        <div class="about-pills">
+          <span class="pill">🎓 LIC Certified</span>
+          <span class="pill">📋 500+ Policies</span>
+          <span class="pill">🤝 Claim Expert</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ WHY INSURANCE ═══════ -->
+<section id="why" class="why-section">
+  <div class="container">
+    <div class="section-header center">
+      <div class="section-tag">Why Insurance Matters</div>
+      <h2 class="section-title">Protect What Matters Most</h2>
+    </div>
+    <div class="why-grid">
+      <div class="why-card"><div class="why-icon">💼</div><h3>Financial Security</h3><p>Life is unpredictable. LIC insurance ensures your family never faces financial hardship even in your absence.</p></div>
+      <div class="why-card featured"><div class="why-icon">👨‍👩‍👧‍👦</div><h3>Family Protection</h3><p>Your family's lifestyle, your children's education, your spouse's security — everything stays intact. Don't let one event undo a lifetime of hard work.</p><div class="why-ribbon">Most Important</div></div>
+      <div class="why-card"><div class="why-icon">🏫</div><h3>Child's Future</h3><p>Secure your child's education from day one. LIC child plans guarantee funds are available exactly when needed.</p></div>
+      <div class="why-card"><div class="why-icon">🌅</div><h3>Retirement Peace</h3><p>Retire with dignity. LIC pension plans ensure a steady monthly income so you never depend on anyone after your working years.</p></div>
+      <div class="why-card"><div class="why-icon">📊</div><h3>Tax Benefits</h3><p>Save up to ₹1.5L under Section 80C. LIC premiums are tax-deductible, making insurance the smartest dual-purpose financial tool.</p></div>
+      <div class="why-card"><div class="why-icon">🔒</div><h3>Government Backed</h3><p>LIC is India's most trusted insurer — government-owned, 65+ years old, with 100% claim settlement guarantee.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ PLANS ═══════ -->
+<section id="plans" class="plans-section">
+  <div class="container">
+    <div class="section-header center">
+      <div class="section-tag">LIC Plans</div>
+      <h2 class="section-title">Choose Your Perfect Plan</h2>
+      <p class="section-sub">Expertly curated LIC plans to match every life goal</p>
+    </div>
+    <div class="plan-filters" id="plan-filters">
+      <button class="filter-btn active" data-cat="all"     onclick="filterPlans('all',this)">All Plans</button>
+      <button class="filter-btn" data-cat="endowment"      onclick="filterPlans('endowment',this)">Endowment Plans</button>
+      <button class="filter-btn" data-cat="moneyback"      onclick="filterPlans('moneyback',this)">Money Back Plans</button>
+      <button class="filter-btn" data-cat="singlepremium"  onclick="filterPlans('singlepremium',this)">Single Premium Plans</button>
+      <button class="filter-btn" data-cat="term"           onclick="filterPlans('term',this)">Term Plans</button>
+      <button class="filter-btn" data-cat="child"          onclick="filterPlans('child',this)">Child Plans</button>
+      <button class="filter-btn" data-cat="wholelife"      onclick="filterPlans('wholelife',this)">Whole Life Plans</button>
+      <button class="filter-btn" data-cat="pension"        onclick="filterPlans('pension',this)">Pension Plans</button>
+      <button class="filter-btn" data-cat="ulip"           onclick="filterPlans('ulip',this)">ULIP Plans</button>
+      <button class="filter-btn" data-cat="micro"          onclick="filterPlans('micro',this)">Micro Plans</button>
+    </div>
+    <div class="plans-grid" id="plans-grid">
+      <div class="loading-spinner"><div class="spinner"></div><p>Loading plans...</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ CALCULATORS ═══════ -->
+<section id="calculators" class="calc-section">
+  <div class="container">
+    <div class="section-header center">
+      <div class="section-tag">Smart Calculators</div>
+      <h2 class="section-title">Plan Your Future Smartly</h2>
+      <p class="section-sub">Check your financial readiness in minutes</p>
+    </div>
+    <div class="calc-tabs">
+      <button class="calc-tab active" onclick="showCalc('life',this)">🛡️ Life Cover</button>
+      <button class="calc-tab" onclick="showCalc('retirement',this)">🌅 Retirement</button>
+      <button class="calc-tab" onclick="showCalc('child',this)">🎓 Child Education</button>
+    </div>
+    <div class="calc-panel active" id="calc-life">
+      <div class="calc-grid">
+        <div class="calc-inputs">
+          <h3>Life Cover Calculator</h3>
+          <p class="calc-desc">Find out the ideal life insurance cover for your family's needs.</p>
+          <div class="input-group"><label>Annual Income (₹)</label><input type="number" id="lc-income" placeholder="e.g. 600000" oninput="calcLifeCover()"/></div>
+          <div class="input-group"><label>Monthly Expenses (₹)</label><input type="number" id="lc-expense" placeholder="e.g. 30000" oninput="calcLifeCover()"/></div>
+          <div class="input-group"><label>Outstanding Loans (₹)</label><input type="number" id="lc-loan" placeholder="e.g. 1500000" oninput="calcLifeCover()"/></div>
+          <div class="input-group"><label>Years to Retirement</label><input type="number" id="lc-years" placeholder="e.g. 25" oninput="calcLifeCover()"/></div>
+        </div>
+        <div class="calc-result" id="lc-result"><div class="result-placeholder"><span class="rp-icon">🛡️</span><p>Enter your details to calculate recommended life cover</p></div></div>
+      </div>
+    </div>
+    <div class="calc-panel" id="calc-retirement">
+      <div class="calc-grid">
+        <div class="calc-inputs">
+          <h3>Retirement Planner</h3>
+          <p class="calc-desc">Plan how much corpus you need for a comfortable retirement.</p>
+          <div class="input-group"><label>Current Age</label><input type="number" id="rt-age" placeholder="e.g. 30" oninput="calcRetirement()"/></div>
+          <div class="input-group"><label>Retirement Age</label><input type="number" id="rt-retage" placeholder="e.g. 60" oninput="calcRetirement()"/></div>
+          <div class="input-group"><label>Monthly Expenses Now (₹)</label><input type="number" id="rt-expense" placeholder="e.g. 40000" oninput="calcRetirement()"/></div>
+          <div class="input-group"><label>Expected Inflation (%)</label><input type="number" id="rt-inflation" placeholder="e.g. 6" oninput="calcRetirement()"/></div>
+        </div>
+        <div class="calc-result" id="rt-result"><div class="result-placeholder"><span class="rp-icon">🌅</span><p>Enter your details to calculate retirement corpus needed</p></div></div>
+      </div>
+    </div>
+    <div class="calc-panel" id="calc-child">
+      <div class="calc-grid">
+        <div class="calc-inputs">
+          <h3>Child Education Planner</h3>
+          <p class="calc-desc">Plan the savings needed for your child's higher education.</p>
+          <div class="input-group"><label>Child's Current Age</label><input type="number" id="ch-age" placeholder="e.g. 5" oninput="calcChild()"/></div>
+          <div class="input-group"><label>Education Start Age</label><input type="number" id="ch-edage" placeholder="e.g. 18" oninput="calcChild()"/></div>
+          <div class="input-group"><label>Current Education Cost (₹)</label><input type="number" id="ch-cost" placeholder="e.g. 1500000" oninput="calcChild()"/></div>
+          <div class="input-group"><label>Education Inflation (%)</label><input type="number" id="ch-inflation" placeholder="e.g. 8" oninput="calcChild()"/></div>
+        </div>
+        <div class="calc-result" id="ch-result"><div class="result-placeholder"><span class="rp-icon">🎓</span><p>Enter your details to plan child education savings</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ TESTIMONIALS ═══════ -->
+<section id="testimonials" class="testimonials-section">
+  <div class="container">
+    <div class="section-header center">
+      <div class="section-tag">Testimonials</div>
+      <h2 class="section-title">What Our Clients Say</h2>
+    </div>
+    <div class="testimonials-grid" id="testimonials-grid">
+      <div class="loading-spinner"><div class="spinner"></div><p>Loading reviews...</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ CONTACT ═══════ -->
+<section id="contact" class="contact-section">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-info">
+        <div class="section-tag">Get In Touch</div>
+        <h2 class="section-title" id="contact-title">Get Personalized LIC Guidance</h2>
+        <p id="contact-subtitle">Fill in your details and we will contact you with a FREE personalized plan recommendation.</p>
+        <div class="contact-details">
+          <div class="cd-item"><span class="cd-icon">📞</span><div><strong>Call Us</strong><a href="tel:+919999999999" id="contact-phone">+91 99999 99999</a></div></div>
+          <div class="cd-item"><span class="cd-icon">💬</span><div><strong>WhatsApp</strong><a id="whatsapp-link" href="#" target="_blank">Chat on WhatsApp</a></div></div>
+          <div class="cd-item"><span class="cd-icon">📧</span><div><strong>Email</strong><a id="contact-email" href="#">agent@licadvisor.com</a></div></div>
+          <div class="cd-item"><span class="cd-icon">📍</span><div><strong>Location</strong><span id="contact-location">Mumbai, Maharashtra</span></div></div>
+        </div>
+        <div class="action-btns">
+          <a id="wa-btn" href="#" target="_blank" class="wa-btn">💬 WhatsApp Now</a>
+          <a id="call-btn" href="tel:+919999999999" class="call-btn">📞 Call Now</a>
+        </div>
+      </div>
+      <div class="contact-form-wrap">
+        <form class="contact-form" id="enquiry-form" onsubmit="submitEnquiry(event)">
+          <h3>Book Free Consultation</h3>
+          <div class="form-row">
+            <div class="fg"><label>Full Name *</label><input type="text" id="f-name" placeholder="Your Name" required/></div>
+            <div class="fg"><label>Mobile Number *</label><input type="tel" id="f-mobile" placeholder="+91 XXXXX XXXXX" required/></div>
+          </div>
+          <div class="form-row">
+            <div class="fg"><label>Age</label><input type="number" id="f-age" placeholder="Your Age" min="18" max="70"/></div>
+            <div class="fg"><label>Financial Goal</label>
+              <select id="f-goal">
+                <option value="">Select Goal</option>
+                <option>Life Insurance</option>
+                <option>Retirement Planning</option>
+                <option>Child Education</option>
+                <option>Tax Saving</option>
+                <option>Savings & Investment</option>
+                <option>Health Insurance</option>
+              </select>
+            </div>
+          </div>
+          <div class="fg"><label>Message (Optional)</label><textarea id="f-message" placeholder="Any specific requirements..."></textarea></div>
+          <button type="submit" class="btn-primary full-width" id="submit-btn">📩 Send Enquiry</button>
+          <p class="form-note">✅ We will contact you within 24 hours</p>
+        </form>
+        <div class="form-success" id="form-success" style="display:none">
+          <div class="success-icon">✅</div>
+          <h3>Enquiry Submitted!</h3>
+          <p>Thank you! We will contact you within 24 hours with personalized LIC guidance.</p>
+          <button onclick="resetForm()" class="btn-primary">Submit Another</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ FOOTER ═══════ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo"><span class="logo-icon">🛡️</span><span class="logo-text" id="footer-brand">Insurance Advisor</span></div>
+        <p id="footer-tagline">Your trusted partner for securing every milestone of life with the right LIC plan.</p>
+        <div class="footer-social">
+          <a href="#" class="fs-btn">📘</a><a href="#" class="fs-btn">📸</a><a href="#" class="fs-btn">🐦</a><a href="#" class="fs-btn">📹</a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <a href="#home">Home</a><a href="#about">About</a><a href="#plans">LIC Plans</a>
+        <a href="#calculators">Calculators</a><a href="#testimonials">Reviews</a><a href="#contact">Contact</a>
+      </div>
+      <div class="footer-links">
+        <h4>LIC Plans</h4>
+        <a href="#plans">Endowment Plans</a><a href="#plans">Money Back Plans</a>
+        <a href="#plans">Term Plans</a><a href="#plans">Child Plans</a>
+        <a href="#plans">Pension Plans</a><a href="#plans">ULIP Plans</a>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact Info</h4>
+        <p>📞 <a id="footer-phone" href="#">+91 99999 99999</a></p>
+        <p>📧 <a id="footer-email" href="#">agent@licadvisor.com</a></p>
+        <p>📍 <span id="footer-location">Mumbai, Maharashtra</span></p>
+        <p>⏰ Mon–Sat, 9AM–7PM</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p id="footer-copy">© 2024 Insurance Advisor. All Rights Reserved. | IRDAI Registered Agent</p>
+      <p><small>This website is for informational purposes only. LIC of India is the policyholder.</small></p>
+    </div>
+  </div>
+</footer>
+
+<a id="float-wa" href="#" target="_blank" class="float-wa" title="Chat on WhatsApp">💬</a>
+
+<script src="/js/main.js"></script>
+</body>
+</html>

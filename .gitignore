@@ -1,0 +1,67 @@
+# Dependencies
+node_modules/
+
+# Environment Variables
+.env
+.env.local
+.env.development
+.env.production
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime Data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+
+# Build Files
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Temporary Files
+tmp/
+temp/
+.cache/
+
+# Deployment
+.vercel/
+.render/
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+
+# PM2
+.pm2/
+
+# Archives
+*.zip
+*.tar
+*.gz
+*.rar
+
+# Local Uploads (if used)
+uploads/
+
+# Sensitive Files
+*.pem
+*.key
+*.crt
